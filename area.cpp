@@ -1,6 +1,4 @@
-
-include<iostream>
-
+#include<iostream>
 using namespace std;
 
 class Room {
@@ -28,7 +26,8 @@ public:
 int main() {
     double length, breadth, height;
     cout << "Enter the length of the room: ";
-    cin >> length;
+    cin>>length;
+
     cout << "Enter the breadth of the room: ";
     cin >> breadth;
     cout << "Enter the height of the room: ";
