@@ -3,7 +3,7 @@ using namespace std;
 #include <iostream>
 
 int main() {
-    const int subject = 5;
+     int subject = 5;
     int marks[subject];
     int total = 0;
 
