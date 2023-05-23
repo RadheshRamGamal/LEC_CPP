@@ -9,7 +9,8 @@ cout<<"enter the mark";
 cin>>mark;
 if(mark==100)
 {
-    cout<<"noice";
+    cout<<"nice";
+    
 }
 else if (mark>=50){
     cout<<"pass";
