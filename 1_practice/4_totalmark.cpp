@@ -1,20 +1,16 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-
-
-int main() {
-     int subject = 5;
-    int marks[subject];
-    int total = 0;
-
-
-    for (int i = 0; i < 5 ; ++i) {
-        std::cout << "Enter marks for subject " << i + 1 << ": ";
-        std::cin >> marks[i];
-        total += marks[i];
+#include <string>
+int main(){
+    string array[5]= {"math","oop","ect","em","toc"};
+    int arra_of_mRK[5];
+    int i,sum=0;
+    for( i = 0 ; i<5 ; i++){
+        cout<<array[i];
+        cout<<"enter the marks of "<< array[i]<<":";
+        cin>>arra_of_mRK[i];
+        sum+=arra_of_mRK[i];
     }
+    cout<<"the total mark is:"<<sum;
 
-    std::cout << "Total marks: " << total << std::endl;
-
-    return 0;
 }
